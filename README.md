@@ -3,14 +3,15 @@
 
 <h3>Screenshots:</h3>
 <h2>Dark</h2>
-<img src="">
+<img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/1.png">
+<img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/2.png">
 
 <h3>Install:</h3>
-<p>The theme is available on the <a href="">VS Code Marketplace</a></p>
+<p>The theme is available on the <a href="https://marketplace.visualstudio.com/items?itemName=muhammad-sammy.rider-theme">VS Code Marketplace</a></p>
 <br/>
 
 <p>From command palette, run:</p>
-<code>ext install </code>
+<code>ext install muhammad-sammy.rider-theme</code>
 <br/><br/>
 
 <p>Or search extentions within VS Code: click "view" in the menubar then "Extentions" and search for "rider theme".</p>
