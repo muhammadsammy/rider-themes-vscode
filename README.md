@@ -3,7 +3,9 @@
 
 <h3>Screenshots:</h3>
 <h2>Dark</h2>
+<h4>Java</h4>
 <img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/1.png">
+<h4>TypeScript/JavaScript</h4>
 <img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/2.png">
 
 <h3>Install:</h3>
