@@ -16,6 +16,11 @@
         "label": "Rider dark",
         "uiTheme": "vs-dark",
         "path": "./themes/rider-dark.json"
+      },
+      {
+        "label": "Rider light",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rider-light.json"
       }
     ]
   },
