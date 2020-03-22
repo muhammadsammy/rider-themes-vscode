@@ -1,0 +1,33 @@
+{
+  "name": "rider-theme",
+  "displayName": "Rider Theme",
+  "description": "",
+  "publisher": "muhammad-sammy",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "version": "0.1.0",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rider dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rider-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/themsammy/rider-theme",
+    "type": "git"
+  },
+  "keywords": [
+    "rider",
+    "dark",
+    "ridertheme",
+    "rider theme",
+    "theme"
+  ]
+}
