@@ -1,5 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
+  "name": "rider-light",
   "type": "light",
   "colors": {
     "activityBar.activeBorder": "#ff000000",
@@ -114,6 +115,7 @@
     "terminal.ansiWhite": "#c7c7c7",
     "terminal.ansiYellow": "#f29718",
     "terminal.background": "#ffffff",
+    "terminal.foreground": "#686868",
     "textLink.activeForeground": "#000000",
     "textLink.foreground": "#000000",
     "titleBar.activeBackground": "#dfdfdf",
@@ -341,7 +343,6 @@
     //"tab.unfocusedInactiveForeground": "#bdbdbd80",
     //"tab.unfocusedInactiveModifiedBorder": "#33aaee40",
     //"terminal.border": "#f4f4f4",
-    //"terminal.foreground": "#333333",
     //"terminal.selectionBackground": "#00000040",
     //"textBlockQuote.background": "#7f7f7f1a",
     //"textBlockQuote.border": "#007acc80",
