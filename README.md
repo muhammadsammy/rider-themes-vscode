@@ -1,4 +1,4 @@
-<h2>Flat UI theme</h2>
+<h2>Rider theme</h2>
 <p>All credits goes to the people of Rider IDE</p>
 
 <h3>Screenshots:</h3>
