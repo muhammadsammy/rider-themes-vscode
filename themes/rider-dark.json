@@ -25,7 +25,7 @@
     "statusBarItem.remoteBackground": "#16825d",
     "statusBarItem.remoteForeground": "#ffffff"
   },
-  "tokenColors":
+  "tokenColors": [
     {
       "scope": ["meta.embedded", "source.groovy.embedded"],
       "settings": {
