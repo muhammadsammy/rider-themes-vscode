@@ -1,25 +1,29 @@
-<h2>Rider theme</h2>
-<p>All credits goes to the people of Rider IDE</p>
+# Rider theme
 
-<h3>Screenshots:</h3>
-<h2>Dark</h2>
-<h4>Java</h4>
-<img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/1.png">
-<h4>TypeScript/JavaScript</h4>
-<img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/2.png">
+![Preview](https://raw.githubusercontent.com/muhammadsammy/rider-theme/master/assets/dark.png)
+![Preview](https://raw.githubusercontent.com/muhammadsammy/rider-theme/master/assets/light.png)
 
-<h2>Light</h2>
-<h4>Python</h4>
-<img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/3.png">
-<h4>Go</h4>
-<img src="https://raw.githubusercontent.com/themsammy/rider-theme/master/screenshots/4.png">
+## Features
 
-<h3>Install:</h3>
-<p>The theme is available on the <a href="https://marketplace.visualstudio.com/items?itemName=muhammad-sammy.rider-theme">VS Code Marketplace</a></p>
-<br/>
+- Semantic highlighting
+- Language support
+  - C#
+  - CSS
+  - SASS
+  - PostCSS
+  - HTML
+  - Java
+  - JavaScript (+ JSX)
+  - TypeScript (+ TSX)
+  - Markdown
+  - Python
+  - Perl
+  - C++
 
-<p>From command palette, run:</p>
-<code>ext install muhammad-sammy.rider-theme</code>
-<br/><br/>
+## Installation
 
-<p>Or search extentions within VS Code: click "view" in the menubar then "Extentions" and search for "rider theme".</p>
+The theme is published at [OpenVSX](https://open-vsx.org/extension/muhammad-sammy/rider-theme) and [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=muhammad-sammy.rider-theme)
+
+---
+
+<sup>This theme is created by [moxer/code-theme-generator](https://github.com/moxer-theme/code-theme-generator). Colors are taken from official rider theme. Font in the screenshot is [Iosevka](https://github.com/be5invis/Iosevka)</sup>

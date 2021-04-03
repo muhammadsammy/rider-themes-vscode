@@ -1,38 +1,65 @@
 {
   "name": "rider-theme",
   "displayName": "Rider Theme",
-  "description": "",
   "publisher": "muhammad-sammy",
-  "engines": {
-    "vscode": "^1.20.0"
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": "Muhammad Sammy [@muhammadsammy]",
+  "homepage": "https://github.com/muhammadsammy/rider-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammadsammy/rider-theme"
   },
-  "version": "0.7.0",
+  "bugs": {
+    "url": "https://github.com/muhammadsammy/rider-theme/issues"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "release": "git pull && standard-version --release-as minor && git push --follow-tags",
+    "release:major": "git pull && standard-version --release-as major && git push --follow-tags"
+  },
+  "engines": {
+    "node": "^14.0.0",
+    "vscode": "^1.40.0"
+  },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "theme",
+    "rider"
+  ],
+  "extensionKind": [
+    "ui"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Rider dark",
+        "label": "Rider Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/rider-dark.json"
+        "path": "./build/rider-dark.json"
       },
       {
-        "label": "Rider light",
+        "label": "Rider Light",
         "uiTheme": "vs",
-        "path": "./themes/rider-light.json"
+        "path": "./build/rider-light.json"
       }
     ]
   },
-  "repository": {
-    "url": "https://github.com/themsammy/rider-theme",
-    "type": "git"
+  "devDependencies": {
+    "@moxer/vscode-theme-generator": "1.20.0",
+    "@types/fs-extra": "9.0.1",
+    "@types/node": "^14.10.2",
+    "fs-extra": "9.0.1",
+    "rimraf": "3.0.2",
+    "typescript": "4.0.2"
   },
-  "keywords": [
-    "rider",
-    "dark",
-    "ridertheme",
-    "rider theme",
-    "theme"
-  ]
+  "dependencies": {
+    "standard-version": "9.0.0"
+  }
 }
