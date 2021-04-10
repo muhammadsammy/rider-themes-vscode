@@ -48,6 +48,11 @@
         "label": "Rider Light",
         "uiTheme": "vs",
         "path": "./build/rider-light.json"
+      },
+      {
+        "label": "Resharper Dark",
+        "uiTheme": "vs-dark",
+        "path": "./build/resharper-dark.json"
       }
     ]
   },
