@@ -5,13 +5,13 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "author": "Muhammad Sammy [@muhammadsammy]",
-  "homepage": "https://github.com/muhammadsammy/rider-theme",
+  "homepage": "https://github.com/muhammadsammy/rider-themes-vscode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/muhammadsammy/rider-theme"
+    "url": "https://github.com/muhammadsammy/rider-themes-vscode"
   },
   "bugs": {
-    "url": "https://github.com/muhammadsammy/rider-theme/issues"
+    "url": "https://github.com/muhammadsammy/rider-themes-vscode/issues"
   },
   "scripts": {
     "clean": "rimraf dist",
