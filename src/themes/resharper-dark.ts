@@ -66,7 +66,8 @@ export const resharperColorSet: IColorSet = {
     "editorWarning.foreground": theme.colors.yellow,
     "activityBar.foreground": "#D0D0D0",
     "activityBar.border": "#353535",
-    "editorLineNumber.foreground": "#D0D0D0",
+    "editorLineNumber.foreground": "#2B91AF",
+    "editorLineNumber.activeForeground": "#A4A3A3",
     "sideBar.border": "#2d2d2d",
     "statusBar.foreground": theme.colors.foreground,
     "editorGroupHeader.tabsBorder": "#2d2d2d",
@@ -88,7 +89,6 @@ export const resharperColorSet: IColorSet = {
         "support.class.component",
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end",
-        "entity.name.type", // TS Types
       ],
       settings: {
         foreground: "#E8BF6A",
@@ -103,7 +103,11 @@ export const resharperColorSet: IColorSet = {
     },
     {
       name: "C# namespaces",
-      scope: ["entity.name.type.namespace.cs", "entity.name.type.interface"],
+      scope: [
+        "entity.name.type.namespace.cs",
+        "entity.name.type.interface",
+        "entity.name.type",
+      ],
       settings: {
         foreground: theme.colors.cyan,
       },
