@@ -122,7 +122,7 @@ themes.forEach(theme => {
           scope: ["variable.other.constant"],
           settings: {
             foreground: theme.colors.cyan,
-            fontStyle: "bold",
+            fontStyle: "",
           },
         },
         {
